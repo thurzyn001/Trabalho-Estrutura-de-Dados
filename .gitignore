@@ -1,0 +1,22 @@
+# Binários e objetos compilados em C
+*.o
+*.obj
+*.exe
+*.out
+*.app
+build/
+bin/
+
+# Arquivos temporários de IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Dados pesados gerados nos testes (300.000 linhas ~ 16 MB) - gerados automaticamente pelo programa
+data/dados_excel.csv
+data/generated/*.csv
+!data/.gitkeep
+!data/generated/.gitkeep
